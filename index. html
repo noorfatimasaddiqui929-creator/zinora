@@ -1,18 +1,152 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Zinora</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            background: #111827;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 40px 8%;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 30px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin: 15px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            background: #111827;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Welcome to Zinora 🚀</h1>
+<header>
+    <div class="logo">ZINORA</div>
 
-    <p>One Upload, Share Everywhere.</p>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Login</a>
+    </nav>
+</header>
 
-    <button>Upload Your Video</button>
+<section class="hero">
+
+    <h1>Create Once. Share Everywhere.</h1>
+
+    <p>
+        Upload your video once and manage your content
+        across multiple social media platforms.
+    </p>
+
+    <button class="btn">
+        Start Creating
+    </button>
+
+</section>
+
+<section class="features">
+
+    <div class="card">
+        <h2>🎥</h2>
+        <h3>Upload Once</h3>
+        <p>Upload your video to Zinora only once.</p>
+    </div>
+
+    <div class="card">
+        <h2>🌐</h2>
+        <h3>Multiple Platforms</h3>
+        <p>Manage your content for different social platforms.</p>
+    </div>
+
+    <div class="card">
+        <h2>🚀</h2>
+        <h3>Publish Easily</h3>
+        <p>Save time by managing your posts from one place.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Zinora. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
